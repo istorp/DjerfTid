@@ -1,6 +1,6 @@
 using System;
 
-namespace DjerfTid.Models
+namespace DjerfTid.Models.ViewModels
 {
     public class ErrorViewModel
     {

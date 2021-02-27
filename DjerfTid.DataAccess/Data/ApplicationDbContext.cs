@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DjerfTid.Data
+namespace DjerfTid.DataAccess.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
