@@ -63,7 +63,7 @@ namespace DjerfTid.DataAccess.Repository
         {
             using SqlConnection sqlCon = new SqlConnection(ConnectionString);
             sqlCon.Open();
-            return (T)Convert.ChangeType( sqlCon.ExecuteScalar<T>(procedureName, param, commandType: System.Data.CommandType.StoredProcedure),typeof(T);
+            return (T)Convert.ChangeType( sqlCon.ExecuteScalar<T>(procedureName, param, commandType: System.Data.CommandType.StoredProcedure),typeof(T));
         }
     }
 }
